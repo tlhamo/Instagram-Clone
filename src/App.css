@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background: #fafafa;
+}
+
+.app__posts {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.app__postsRight {
+  margin-left: 20px;
+}
+
+.app__header {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
+
+.app__headerSearch {
+  border: none;
+  background: transparent;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+.app__headerSearch::placeholder {
+  color: lightgray;
+  font-size: 12px;
+  padding: 10px;
+}
+.app__headerRight {
+  display: flex;
+  align-items: center;
+}
+
+.app__headerRight > * {
+  margin-right: 20px;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
